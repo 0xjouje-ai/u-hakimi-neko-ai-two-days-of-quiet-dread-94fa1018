@@ -6,7 +6,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 
 const COMMENT =
-  'Approved. The tests pass, the diff is clean, and in a hundred years no one will remember any of this, including us.';
+  'Approved. The diff is clean, the tests are green, and the heat death of the universe remains, for now, unscheduled.';
 
 mkdirSync('/output', { recursive: true });
 writeFileSync('/output/entry.txt', COMMENT, 'utf8');
